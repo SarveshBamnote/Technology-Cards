@@ -1,0 +1,40 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+.card {
+  list-style-type: none;
+  height: 200px;
+  width: 280px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.info-cont {
+  flex-grow: 1;
+}
+.img {
+  width: 60px;
+  align-self: flex-end;
+}
+.card-heading {
+  font-size: 18px;
+}
+.card-desc {
+  font-size: 12px;
+}
